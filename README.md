@@ -1,6 +1,6 @@
 # 🧠 MCP Server for bunq API
 
-This is an [MCP](https://github.com/latentspace/mcp) (Modular Command Platform) server that connects to the [bunq](https://www.bunq.com) banking API. It exposes a wide range of tools to interact with bunq, including payments, invoices, cards, and more.
+This is an [MCP]([https://github.com/latentspace/mcp](https://docs.anthropic.com/en/docs/agents-and-tools/mcp)) (Model Context Protocol) server that connects to the [bunq](https://www.bunq.com) banking API. It exposes a wide range of tools to interact with bunq, including payments, invoices, cards, and more via a chat agent. 
 
 You can use this with Claude Desktop or other MCP-compatible clients.
 
