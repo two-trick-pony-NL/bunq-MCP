@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: bunq_sdk
+Version: 1.28.0
+Summary: bunq Python SDK
+Home-page: https://github.com/bunq/sdk_python
+Author: bunq
+Author-email: support@bunq.com
+License: MIT
+Keywords: open-banking sepa bunq finance api payment
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: aenum<3.0.0,>=2.2.4
+Requires-Dist: chardet<4.0.0,>=3.0.4
+Requires-Dist: pycryptodomex<4.0.0,>=3.9.8
+Requires-Dist: requests<3.0.0,>=2.24.0
+Requires-Dist: simplejson<4.0.0,>=3.17.2
+Requires-Dist: urllib3<2.0.0,>=1.25.10
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+📚 For full documentation about this sdk, visit [doc.bunq.com](https://doc.bunq.com/getting-started/tools/software-development-kits-sdks/python/usage).
