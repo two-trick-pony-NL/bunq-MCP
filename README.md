@@ -27,9 +27,21 @@ pip install -r requirements.txt
 In the root of the project, create a .env file with the following content:
 
 ```
-BUNQ_API_KEY="sandbox_c6428588c758d2b50dbfcbde59371ce88424cc6373249db97d25f7cf"
+BUNQ_API_KEY="sandbox_your_key"
 BUNQ_ENVIROMENT="SANDBOX"
+
 ```
+
+Request a bunq sandbox API key here: 
+```
+curl --location --request POST 'https://public-api.sandbox.bunq.com/v1/sandbox-user-person' \
+--header 'Content-Type: application/json' \
+--header 'User-Agent: postman' \
+--data ''
+
+```
+production keys can be fetched from your app
+
 For production, set BUNQ_ENVIROMENT to PRODUCTION.
 
 3. Run the server
@@ -86,7 +98,7 @@ These tools use the official bunq SDK and return structured Python objects.
 📁 Project Structure
 ```
 .
-├── server.py       # MCP server for bunq
+├── main.py         # MCP server for bunq
 ├── .env            # Your bunq API key and environment
 ├── README.md       # This file\
 ```
