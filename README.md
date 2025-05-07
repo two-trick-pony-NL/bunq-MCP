@@ -19,7 +19,7 @@ You can use this with Claude Desktop or other MCP-compatible clients.
 ### 1. Clone the repository and install dependencies
 
 ```bash
-git clone https://github.com/yourusername/bunq-MCP.git
+git clone https://github.com/two-trick-pony-NL/bunq-model-context-protocol-server.git
 cd bunq-MCP
 pip install -r requirements.txt
 ```
