@@ -46,7 +46,7 @@ For production, set BUNQ_ENVIROMENT to PRODUCTION.
 
 3. Run the server
 ```
-python3 server.py
+python3 main.py
 ```
 🧠 Using with Claude Desktop
 Add the server to your Claude Desktop config.json:
