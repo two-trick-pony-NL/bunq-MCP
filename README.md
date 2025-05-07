@@ -45,7 +45,7 @@ Add the server to your Claude Desktop config.json:
     "bunq": {
       "command": "python3",
       "args": [
-        "/Users/pvandoorn/Desktop/bunq-MCP/server.py"
+        "/Users/[path to the script]/main.py"
       ]
     }
   }
